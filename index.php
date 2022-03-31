@@ -109,8 +109,21 @@ switch($my_bike){
     echo "My bike is resting";
     break;
 }
+echo "<br>";
+echo "<br>";
 
-
+$fan_chalu = true;
+if (!$fan_chalu) {
+    echo "Fan is off";
+}else{
+    echo "Fan is on";
+}
+// $fan_status = "Fan is on";
+// if(!$fan_status) {
+//     echo “Fan is off”;
+// } else {
+// echo “Fan is on”;
+// }
 
 
 
