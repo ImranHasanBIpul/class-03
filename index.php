@@ -118,13 +118,101 @@ if (!$fan_chalu) {
 }else{
     echo "Fan is on";
 }
-// $fan_status = "Fan is on";
-// if(!$fan_status) {
-//     echo “Fan is off”;
-// } else {
-// echo “Fan is on”;
-// }
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 
+echo "<h2> Extra Practice </h2>";
+
+
+// Assignment (নির্ধারণ অপারেটর)
+// =, +=, -=, *=, /=
+
+$total_mark = "150";
+$extra_mark = "200";
+echo $total_mark *= $extra_mark;
+echo "<br>";
+echo "<br>";
+
+$vara = 700;
+if($vara >= 650) {
+    echo "Dhakai jete parbe";
+} else{
+    echo "Dhakai jete parbe na.";
+}
+echo "<br>";
+echo "<br>";
+
+$vara = "500";
+if($vara === 500) {
+    echo "Dhakai jete parbe";
+} else{
+    echo "Dhakai jete parbe na.";
+}
+echo "<br>";
+echo "<br>";
+
+$html = true;
+$css = true;
+
+if($html == true || $css == false){
+    echo "Welcome To Course";
+}else{
+    echo "You are not allow";
+}
+
+echo "<br>";
+echo "<br>";
+
+$html = true;
+
+if(!$html){
+    echo "Welcome To Course";
+}else{
+    echo "You are not allow";
+}
+echo "<br>";
+echo "<br>";
+
+
+$age = 17;
+if($age >= 18){
+    echo "You are allow all social media";
+} else if ($age <= 18 && $age >13){
+    echo "You are welcome to only Youtube";
+} else{
+    echo "You are not allow Anything";
+}
+
+echo "<br>";
+echo "<br>";
+
+$fan_switch = 2;
+switch($fan_switch){
+    case '1';
+    echo "Lal batti";
+    break;
+    case '2';
+    echo "Nil batti";
+    break;
+    case '3';
+    echo "Shabuj batti";
+    break;
+    case '4';
+    echo "Shada batti";
+    break;
+    case '5';
+    echo "Holud batti";
+    break;
+    case '6';
+    echo "Kala batti";
+    break;
+    default;
+    echo "Erokom kono batti nai";
+    break;
+}
 
 
